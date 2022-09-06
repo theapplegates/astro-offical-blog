@@ -5,10 +5,8 @@ description: 'Lorem ipsum dolor sit amet'
 pubDate: 'Jul 02 2022'
 heroImage: '/placeholder-hero.jpg'
 ---
-import { Picture } from '@astrojs/image/components';
-import localImage from 'src/assets/images/G400.jpg';
 
-<Picture src={localImage} widths={[100, 200, 400, 800, 1600]} sizes="(max-width: 800px) 100vw, 1600px" formats={['avif', 'webp', 'png', 'jpg']} alt="My local image" />
+<Picture src={src/assets/images/G400.jpg} widths={[100, 200, 400, 800, 1600]} sizes="(max-width: 800px) 100vw, 1600px" formats={['avif', 'webp', 'png', 'jpg']} alt="My local image" />
 
 
 
